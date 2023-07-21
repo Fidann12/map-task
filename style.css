@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  margin: 0 200px;
+}
+path:hover {
+  fill: rebeccapurple;
+}
+#maps_ul {
+  margin: 20px auto;
+  width: 2000px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  font-size: 40px;
+}
+#maps_ul li {
+  background-color: #746c6c;
+  padding: 10px;
+  color: #fff;
+}
+.show {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: #000;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+}
